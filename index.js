@@ -13,5 +13,10 @@ function nowServing(katzDeliLine){
 
 function currentLine (katzDeliLine){
    if (katzDeliLine.length<1){
-    return "There is nobody waiting to be served!"}
+    return "The line is currently empty."}
+    var name = ""
+  for (var i = 0; i<katzDeliLine; i++){
+    name = name + (i+1) + ". " + katzDeliLine[i] + ", "
+  }
+  name = 
 }
