@@ -3,6 +3,7 @@ function takeANumber(line,name){
   return "Welcome, "+ name +". You are number "+ (line.length) +" in line."
 }
 
-function nowserving(){
-  
+function nowserving(katzDeliLine){
+  if (katzDeliLine[0]=""){return }
+  return katzDeliLine[0];
 }
