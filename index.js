@@ -20,6 +20,7 @@ function currentLine (katzDeliLine){
       name = name + (i+1) + ". " + katzDeliLine[i] 
       }else{
     name = name + (i+1) + ". " + katzDeliLine[i] + ", "
+    }
   }
   name = "The line is currently: " + name
   return name
